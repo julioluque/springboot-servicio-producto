@@ -16,6 +16,7 @@ import com.jluque.springboot.app.productos.models.service.IProductoService;
 @RestController
 public class ProductoController {
 
+	@SuppressWarnings("unused")
 	@Autowired
 	private Environment env;
 
