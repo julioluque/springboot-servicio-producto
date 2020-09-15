@@ -41,12 +41,12 @@ public class ProductoController {
 //		producto.setPort(Integer.parseInt(env.getProperty("local.server.port")));
 		producto.setPort(port);
 		
-		try {
-			// el timeout por defecto de ribbon es 1 segundo por lo tanto vamos a lanzar excepcion
-			Thread.sleep(2000L);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			// el timeout por defecto de ribbon es 1 segundo por lo tanto vamos a lanzar excepcion
+//			Thread.sleep(2000L);
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
 
 		return producto;
 	}
